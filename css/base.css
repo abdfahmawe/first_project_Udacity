@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+:root {
+  --Groteskfont: "Space Grotesk";
+  --Poppinsfont: "Poppins";
+  --interfont: "Inter";
+  --maincolor: #121212;
+  --subcolor: #6c7275;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  list-style-type: none;
+}
+.container {
+  width: calc(100% - 120px);
+  margin: auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
