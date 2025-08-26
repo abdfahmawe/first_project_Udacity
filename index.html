@@ -21,6 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/css/base.css" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
@@ -28,12 +29,12 @@
       <div class="container">
         <div class="row">
           <div class="head-logo">
-            <div>
-              <img class="menu" src="/images/head/menu.svg" alt="" />
-            </div>
-            <div>
+            <figure>
+              <img class="menu" src="/images/head/menu.svg" alt="menu" />
+            </figure>
+            <figure>
               <img src="/images/head/3legant..svg" alt="3legant" />
-            </div>
+            </figure>
           </div>
           <div class="nav">
             <ul>
@@ -71,8 +72,12 @@
                 ><span class="home">Home > </span
                 ><span class="shop">Shop</span></span
               >
-              <h2>Shope Page</h2>
-              <p>Let's design the place you always imagined</p>
+              <h1>Shope Page</h1>
+              <p>
+                Welcome to our store !
+                <strong>High quality</strong> products for your home designed to
+                make your life <em>easier</em>
+              </p>
             </div>
           </div>
         </div>
@@ -82,11 +87,14 @@
           <div class="row">
             <div class="filter">
               <div class="head">
-                <img src="/images/Product/Filters/Filter-icon.svg" alt="" />
-                <h3>Filter</h3>
+                <img
+                  src="/images/Product/Filters/Filter-icon.svg"
+                  alt="Filter-icon"
+                />
+                <h2>Filter</h2>
               </div>
               <div class="Catagries">
-                <h3>Catagries</h3>
+                <h2>Catagries</h2>
                 <div class="types">
                   <button class="selected">All Rooms</button>
                   <button>Living Room</button>
@@ -105,12 +113,12 @@
         <div class="container">
           <div class="navbar">
             <div class="navbar-brand">
-              <div>
+              <figure>
                 <img src="/images/footer/3legant.svg" alt="3legant" />
-              </div>
-              <div class="dellet">
+              </figure>
+              <figure class="dellet">
                 <img src="/images/footer/line.svg" alt="line" />
-              </div>
+              </figure>
               <div>
                 <span class="gray">Gift & Decoration Store</span>
               </div>
@@ -138,20 +146,29 @@
             <div class="footer-social">
               <ul>
                 <li>
-                  <a href="https://www.instagram.com/abdfahmawe/"
-                    ><img src="/images/footer/instagram.svg" alt=""
-                  /></a>
+                  <figure>
+                    <a href="https://www.instagram.com/abdfahmawe/"
+                      ><img src="/images/footer/instagram.svg" alt="instagram"
+                    /></a>
+                    <figcaption>instagram</figcaption>
+                  </figure>
                 </li>
                 <li>
-                  <a
-                    href="https://www.facebook.com/profile.php?id=100006396377646"
-                    ><img src="/images/footer/facebook.svg" alt=""
-                  /></a>
+                  <figure>
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100006396377646"
+                      ><img src="/images/footer/facebook.svg" alt="facebook"
+                    /></a>
+                    <figcaption>facebook</figcaption>
+                  </figure>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/"
-                    ><img src="/images/footer/youtube.svg" alt=""
-                  /></a>
+                  <figure>
+                    <a href="https://www.youtube.com/"
+                      ><img src="/images/footer/youtube.svg" alt="youtube"
+                    /></a>
+                    <figcaption>youtube</figcaption>
+                  </figure>
                 </li>
               </ul>
             </div>

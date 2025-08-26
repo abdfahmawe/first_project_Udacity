@@ -107,6 +107,10 @@ form button {
   margin-top: 1rem;
 }
 @media screen and (max-width: 830px) {
+  .theform {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
   .joinOurNewslettet {
     background-color: #f2f4f6;
     background-image: none;
@@ -114,7 +118,7 @@ form button {
   .joinOurNewslettet .newsletter-signup .email {
     font-size: 1em;
   }
-  .joinOurNewslettet .newsletter-signup h2 {
+  .joinOurNewslettet .newsletter-signup h1 {
     font-size: 2em;
   }
   .joinOurNewslettet .newsletter-signup p {
