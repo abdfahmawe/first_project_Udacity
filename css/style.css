@@ -37,9 +37,6 @@ header .auth ul {
   align-items: center;
 }
 @media screen and (max-width: 860px) {
-  .head .nav ul {
-    display: none;
-  }
   .head .head-logo .menu {
     display: block;
   }
